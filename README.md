@@ -1,112 +1,36 @@
-# 🌾 AI-Powered Crop Yield Prediction and Optimization
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## 📌 Problem Statement
+## Getting Started
 
-Small-scale farmers often struggle with unpredictable crop yields due to weather changes, soil conditions, and lack of timely agricultural insights.  
-Our solution is an **AI-powered platform** that predicts crop yields and provides **actionable recommendations** for irrigation, fertilization, and pest control, tailored to specific crops and regional conditions.
+First, run the development server:
 
----
-
-## 🎯 Expected Outcome
-
-- Increase farmer productivity by **at least 10%** through data-driven insights.
-- Provide an accessible web/mobile app with **regional language support**.
-- Deliver actionable and **easy-to-understand recommendations**.
-- Scalable platform with potential to integrate satellite and IoT data.
-
----
-
-## ⚙️ Features
-
-- ✅ **Crop Yield Prediction** using ML models trained on historical & real-time data
-- ✅ **Actionable Recommendations** for irrigation, fertilizer, and pest control
-- ✅ **Weather Integration** via live APIs
-- ✅ **Farmer Dashboard** (mobile-first, multilingual, farmer-friendly)
-- ✅ **Admin/Expert Panel** for agronomists to validate & enhance recommendations
-- ✅ **Explainability** – show top 3 factors influencing yield prediction
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-- React.js (or Next.js)
-- Tailwind CSS / Material UI
-- PWA for offline support
-- i18n for regional languages
-
-### Backend
-
-- FastAPI (Python) or Express.js (Node.js)
-- REST APIs for predictions, weather, and farmer data
-- PostgreSQL / MongoDB for data storage
-
-### AI/ML
-
-- Python (scikit-learn, pandas, numpy)
-- XGBoost / LightGBM for yield prediction
-- SHAP for explainability
-- APIs for real-time weather & soil data
-
----
-
-## 📂 Project Structure
-
-\`\`\`
-├── frontend/ # React/Next.js farmer app
-├── backend/ # FastAPI/Express backend
-├── ml-model/ # ML training scripts + models
-├── docs/ # Documentation & pitch material
-└── README.md
-\`\`\`
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
-
-\`\`\`bash
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
-\`\`\`
-
-### 2. Setup Backend
-
-\`\`\`bash
-cd backend
-pip install -r requirements.txt # for Python FastAPI
-npm install # for Node.js backend
-\`\`\`
-
-### 3. Run Frontend
-
-\`\`\`bash
-cd frontend
-npm install
+```bash
 npm run dev
-\`\`\`
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### 4. Run ML Model (Optional)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-\`\`\`bash
-cd ml-model
-python train.py
-\`\`\`
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 👥 Team Roles
+## Learn More
 
-- Data & AI/ML: Model training, feature engineering, explainability
-- Backend & Integration: APIs, DB, model serving
-- Frontend: Farmer dashboard & mobile-first PWA
-- Admin/Expert Panel: Agronomist interface
-- UI/UX & Docs: Mockups, design, final pitch
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 📜 License
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-MIT License – Free to use and improve.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
