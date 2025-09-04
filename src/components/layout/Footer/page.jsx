@@ -11,25 +11,25 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row gap-6 text-sm font-medium text-center">
           <a
             href="#home"
-            className="hover:text-accent transition-colors duration-300"
+            className="hover:text-light transition-colors duration-300"
           >
             Home
           </a>
           <a
             href="#features"
-            className="hover:text-accent transition-colors duration-300"
+            className="hover:text-light transition-colors duration-300"
           >
             Features
           </a>
           <a
             href="#about"
-            className="hover:text-accent transition-colors duration-300"
+            className="hover:text-light transition-colors duration-300"
           >
             About
           </a>
           <a
             href="#contact"
-            className="hover:text-accent transition-colors duration-300"
+            className="hover:text-light transition-colors duration-300"
           >
             Contact
           </a>
@@ -40,19 +40,19 @@ export default function Footer() {
           <div className="flex gap-4">
             <a
               href="#"
-              className="hover:text-accent transition-colors duration-300"
+              className="hover:text-light transition-colors duration-300"
             >
               Twitter
             </a>
             <a
               href="#"
-              className="hover:text-accent transition-colors duration-300"
+              className="hover:text-light transition-colors duration-300"
             >
               LinkedIn
             </a>
             <a
               href="#"
-              className="hover:text-accent transition-colors duration-300"
+              className="hover:text-light transition-colors duration-300"
             >
               Instagram
             </a>
