@@ -14,7 +14,7 @@ export default function Header() {
             <div className="flex sm:gap-2 text-grey active:scale-100 justify-center items-center font-heading text-2xl select-none cursor-pointer hover:scale-105 transition-transform">
               <div className="logo-container">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/5994/5994257.png"
+                  src="/favicon/android-chrome-512x512.png"
                   alt="Logo"
                   width={80}
                 />
